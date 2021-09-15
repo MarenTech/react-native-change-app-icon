@@ -9,6 +9,13 @@ Change Application Icon Programmatically.
 
 `$ yarn add https://github.com/MarenTech/react-native-change-app-icon.git`
 
+- Android
+`$ npx jetify`
+
+- IOS
+`$ cd ios` `$ pod install`
+
+
 ## Usage
 
 #### iOS
