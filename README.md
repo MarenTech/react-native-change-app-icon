@@ -1,19 +1,13 @@
 
 # React Native Change Icon
 
-[![npm version](https://badge.fury.io/js/react-native-change-icon.svg)](https://badge.fury.io/js/react-native-change-icon)
-
 Change Application Icon Programmatically.
 - [x] iOS
 - [x] Android
 
 ## Getting started
 
-`$ yarn add react-native-change-icon`
-
-### Automatic installation
-
-`$ react-native link react-native-change-icon`
+`$ yarn add https://github.com/MarenTech/react-native-change-app-icon.git`
 
 ## Usage
 
@@ -117,3 +111,5 @@ changeIcon('iconname');
 `changeIcon` function returns a promise. The promise is resolved only when the icon is changed.
 
 **Please refer to the example app for demo on implementation**
+
+**Forked from https://github.com/skb1129/react-native-change-icon**
