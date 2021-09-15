@@ -3,7 +3,7 @@ name: Bug report
 about: Report a reproducible bug or regression in this package.
 title: ''
 labels: ''
-assignees: skb1129
+assignees: Author
 
 ---
 

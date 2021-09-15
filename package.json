@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/skb1129/react-native-change-icon",
-  "author": "Surya Kant Bansal <suryakantbansal97@gmail.com> (https://github.com/skb1129)",
+  "repository": "https://github.com/MarenTech/react-native-change-app-icon",
+  "author": "Maren",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skb1129/react-native-change-icon/issues"
+    "url": "https://github.com/MarenTech/react-native-change-app-icon/issues"
   },
-  "homepage": "https://github.com/skb1129/react-native-change-icon#readme",
+  "homepage": "https://github.com/MarenTech/react-native-change-app-icon#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^12.1.4",
     "@react-native-community/bob": "^0.17.1",
