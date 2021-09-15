@@ -112,4 +112,4 @@ changeIcon('iconname');
 
 **Please refer to the example app for demo on implementation**
 
-**Forked from https://github.com/skb1129/react-native-change-icon**
+Forked from https://github.com/skb1129/react-native-change-icon
