@@ -14,15 +14,17 @@ class ChangeIcon: NSObject {
             return
         }
         let currentIcon = UIApplication.shared.alternateIconName
-        if iconName == "" {
+        if (iconName == currentIcon || currentIcon == nil) {
+            reject("Error", "Icon already in use", nil)
+            return
+        } else if (iconName == "" || iconName=="AppIcon"  ) {
             resolve(true)
             UIApplication.shared.setAlternateIconName(nil)
-        } else if iconName == currentIcon {
-            reject("Error", "Icon already in use", nil)
             return
         } else {
             resolve(true)
             UIApplication.shared.setAlternateIconName(iconName)
+            return
         }
     }
 }
